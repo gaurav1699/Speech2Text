@@ -29,6 +29,6 @@ pip install -r requirements.txt
 
 <li>recognize_google(): Uses Google Speech API</li>
 <li>To create audio file you can use different format</li>   
-<li>just change the .mp3 extension to that format such as WAV, AIFF,FLAC,RAW</li>
+<li>just change the .mp3 extension given in code.py to other format such as WAV, AIFF,FLAC,RAW </li>
 </ul>
 
