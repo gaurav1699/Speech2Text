@@ -20,20 +20,14 @@ pip install -r requirements.txt
 <li>For windows | cmd python code.py</li>
 <li>Internet is requird because we are using Google API.</li></ul>
 
+<h2>Project Description</h2>
+<p> when you run code.py model will ask for your name you have to tell the name by speaking, after that the model will show message and prompt to say something.then after speaking it will show you your text message(wait for some time till it shows) and model will create a .txt file of your text in textfiles folder and it will record your message in .mp3 file located at audiofiles folder then you can share your files anywhere.</p>
+
 <h2>Note</h2>
 <ul>
-  <li>API used to convert speech to text, the Recognizer class has following methods:</li>
+  <li>API used to convert speech to text, the Recognizer class has following method:</li>
 
 <li>recognize_google(): Uses Google Speech API</li>
-
-<li>recognize_sphinx(): Uses PocketSphinx API</li>
-
-<li>For pocketsphinx api make sure you have up-to-date versions of pip, setuptools and wheel</li>
-
-<li>python -m pip install --upgrade pip setuptools wheel</li>
-
-<li>pip install --upgrade pocketsphinx</li>
-
 <li>To create audio file you can use different format</li>   
 <li>just change the .mp3 extension to that format such as WAV, AIFF,FLAC,RAW</li>
 </ul>
